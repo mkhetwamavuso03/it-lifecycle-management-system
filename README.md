@@ -45,3 +45,10 @@ Mongoose ODM (ACID Transactions, Document Consistency & State Validation)
       │
       ▼
 MongoDB Atlas Cluster (Optimized BSON Document Storage)
+```
+
+## Admin workspace
+
+The dashboard opens device details in a dialog when an asset tag is selected. IT administrators can manage staff from the **Staff** screen, including creating, editing, and deactivating accounts. Employee IDs are generated automatically when staff accounts are created. Adding a device can optionally assign it to an active staff member; the device status, assignment record, and audit event are committed together.
+
+The seed script creates 22 sample staff accounts and 30 devices across lifecycle states. Set `ADMIN_EMAIL`, `ADMIN_PASSWORD`, and `SAMPLE_USER_PASSWORD` in the server environment before running `npm run seed`; seeded credentials are not hard-coded.
